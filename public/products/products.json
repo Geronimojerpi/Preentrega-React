@@ -1,0 +1,45 @@
+{
+    "data":[
+    {
+        "id": "1",
+        "categories": "hombres",
+        "title": "Musculosa black",
+        "precio": "5000$",
+        "img": "../assets/musculosa-hombre.jpg"
+    },
+    {
+        "id": "2",
+        "categories": "hombres",
+        "title": "Short black",
+        "precio": "7000$",
+        "img": "../assets/short-hombre.jpeg"
+    },
+    {
+        "id": "3",
+        "categories": "hombres",
+        "title": "Buzo black",
+        "precio": "10000$",
+        "img": "../assets/buzo-hombre.jpg"
+    },
+    {
+        "id": "4",
+        "categories": "mujeres",
+        "title": "Buzo crop black",
+        "precio": "7000$",
+        "img": "../assets/buzo-mujer.jpeg"
+    },
+    {
+        "id": "5",
+        "categories": "mujeres",
+        "title": "Musculosa pink",
+        "precio": "4500$",
+        "img": "../assets/musculosa-mujer.jpeg"
+    },
+    {
+        "id": "6",
+        "categories": "mujeres",
+        "title": "Calza blue",
+        "precio": "6000$",
+        "img": "../assets/calza-mujer.jpeg"
+    }
+]}
