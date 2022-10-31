@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Item = ({title, precio, img, id}) => {
+    const Item = ({title, precio, img, id, descripcion}) => {
 
     return (
 
@@ -8,8 +8,8 @@ const Item = ({title, precio, img, id}) => {
             <img src={img} className="card-img-top" alt="..." />
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
-                <p className="card-text">{precio}</p>
-                <Link to={`/detail/${id}`} className="btn btn-primary">Detalles</Link>
+                <p className="card-text">{descripcion}</p>
+                <Link to={`/detalle/${id}`} className="btn btn-primary">Detalles</Link>
             </div>
         </div>
 
@@ -17,3 +17,4 @@ const Item = ({title, precio, img, id}) => {
 }
 
 export default Item;
+
