@@ -6,6 +6,7 @@ import Container from './components/Container'
 import DetailsContainer from './components/DetailsContainer'
 import CartProvider from "./context/CartContext";
 import Cart from "./components/Cart";
+import NotFound from "./components/NotFound";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
             <Route path={"/categoria/:categoriaId"} element={<Container />} />
             <Route path={"/detalle/:detalleId"} element={<DetailsContainer />} />
             <Route path="/cart" element={<Cart/>} />
+            <Route exact path="/*" element={<NotFound/>} />
           </Routes>
         </CartProvider>
       </BrowserRouter>

@@ -1,13 +1,13 @@
 import { useCartContext } from "../context/CartContext";
 
-const CartWidget = ()=>{
+const CartWidget = () => {
 
-    const {totalProducts} = useCartContext();
+    const { totalProducts } = useCartContext();
 
-    return(
-        <div className="contenedorcart"> 
-        <div className="cont">{totalProducts() || ''}</div>
-        <i className="fa-solid fa-cart-plus carrito"></i> 
+    return (
+        <div className="contenedorcart">
+            <div className="cont">{totalProducts() || ''}</div>
+            <i className="fa-solid fa-cart-plus carrito"></i>
         </div>
     )
 }
