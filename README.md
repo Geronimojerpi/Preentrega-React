@@ -3,6 +3,8 @@
 
 <h3>
 Para el proyecto utilizé algunas librerias, entre ellas:</br>
+<a href="https://getbootstrap.com/"> Bootstrap, la cual fue utilizada para el maquetado y diseño de la web</a></br>
+<a href="https://fontawesome.com/"> Font Awesome, utilizada para poder exportar el icono del carrito</a></br>
 <a href="https://reactrouter.com/en/main"> React Router, la cual se usó para poder generar una navegación dinamica</a></br>
 <a href="https://react-hook-form.com/"> React hook form, me permitió realizar bastantes cosas interesantes como llamados a nuestra base de datos</a></br>
 <a href="https://firebase.google.com/?hl=es"> Firebase, esta fue utilizada para poder crear una base de datos NoSQL </a></br>
@@ -10,10 +12,6 @@ Para el proyecto utilizé algunas librerias, entre ellas:</br>
 
 <h3>Lenguajes y herramientas utilizadas para el proyecto:</h3>
 <p> 
-
-<a href="https://firebase.google.com/" target="_blank"> 
-<img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="50" height="50"/> 
-</a>
 
 <a href="https://www.w3schools.com/css/" target="_blank"> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/> 
