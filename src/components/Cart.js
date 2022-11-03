@@ -18,7 +18,6 @@ const Cart = () => {
 
         <>
             <div className="contenedoritems">
-
                 {
                     cart.map(product => <ItemCart key={product.id} product={product} />)
                 }

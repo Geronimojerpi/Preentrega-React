@@ -7,37 +7,7 @@ body {
   background-color: rgb(31, 30, 30);
 }
 
-.contenedorcart {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.cont {
-  margin-right: 20px;
-  font-size: 2rem;
-}
-
-.carrito {
-  font-size: 48px;
-  margin-right: 40px;
-  margin-top: 3px;
-}
-
-.titulo {
-  font-size: 2.9rem;
-  margin-left: 65px;
-  font-weight: 600;
-  margin-bottom: 7px;
-  margin-top: 3px;
-}
-
-.subtitulos {
-  margin-left: 25px;
-  margin-top: 11px;
-  font-size: 1.4rem;
-  font-weight: 600;
-}
+/*NAVBAR*/
 
 .navbar {
   background-color: #dad5d5;
@@ -51,18 +21,34 @@ body {
 
 }
 
-.saludo {
-  text-align: center;
+.titulo_navbar {
+  font-size: 2.9rem;
+  margin-left: 65px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  margin-top: 3px;
 }
 
-.subtitlos2 {
+.subtitulos_navbar {
+  margin-left: 25px;
+  margin-top: 11px;
+  font-size: 1.4rem;
   font-weight: 600;
 }
+
+/* Items */
 
 .btn {
   width: 100%;
   box-sizing: border-box;
 }
+
+.card {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/*Item Detail*/
 
 .contenedoritems {
   display: flex;
@@ -75,10 +61,26 @@ body {
   margin-bottom: 50px;
 }
 
-.card {
-  margin-top: 15px;
-  text-align: center;
+.finalizarcmp {
+  text-decoration: none;
 }
+
+.cont_cmp {
+  height: 85px;
+}
+
+.cont_cmp div {
+  padding: 4px;
+  font-size: 0.9rem;
+  padding: 5px 0 5px 0
+}
+
+.carddetails {
+  margin-top: 2px;
+}
+
+
+/* Contador */
 
 .contador {
   margin-bottom: 5px;
@@ -90,7 +92,6 @@ body {
 
 .contador button {
   margin-top: 10px;
-
 }
 
 .buttonsr {
@@ -102,46 +103,77 @@ body {
   height: 45px;
 }
 
+/*Cart*/
+
+.carrito {
+  font-size: 48px;
+  margin-right: 40px;
+  margin-top: 3px;
+}
+
+.contenedorcart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cont {
+  margin-right: 50px;
+  font-size: 2.2rem;
+  color: green;
+}
+
+.agregados {
+  font-size: 1.3rem;
+  margin-left: 120px;
+  color: red;
+}
+
 .preciofinal {
   color: white;
   font-size: 2rem;
   text-align: center;
 }
 
-.cargando {
-  text-align: center;
-  color: white;
-  margin-top: 10px;
-}
-
-.finalizarcmp {
-  font-size: 1.15rem;
-}
-
-.btneliminar{
+.btneliminar {
   width: 100%;
   height: 40px;
 }
 
-.elm{
+.elm {
   text-align: center;
 }
 
-.elm p{
+.elm p {
   font-size: 2.5rem;
   margin-top: 15px;
   color: white;
 }
 
-.linkinicio{
+.linkinicio {
   font-size: 1.5rem;
+  text-decoration: none;
 }
 
-.error{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-    color: white;
+/* NotFound*/
+
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  color: white;
+}
+
+.error h3 {
+  text-decoration: none;
+}
+
+/* Cargando contenido */
+
+.cargando {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
 }
